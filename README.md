@@ -24,6 +24,12 @@ blacktop/ghidra          latest              1.41GB
 5. Start socat `socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"`
 6. Start up Ghidra
 
+```console
+$ make all
+$ make run
+```
+
+<!--
 ```bash
 $ docker run --init -it --rm \
              --name ghidra \
@@ -35,7 +41,9 @@ $ docker run --init -it --rm \
              -v /path/to/projects:/root \
              blacktop/ghidra
 ```
+-->
 
+<!--
 ### Headless
 
 ```bash
@@ -48,6 +56,7 @@ $ docker run --init -it --rm \
              --link ghidra-server \
              blacktop/ghidra:beta support/analyzeHeadless ghidra://ghidra-server:13100/Apple/12.4.1/ -import /samples/dyld_shared_cache -connect blacktop -p -commit "Loading Dyld."
 ```
+-->
 
 ## Known Issues
 
