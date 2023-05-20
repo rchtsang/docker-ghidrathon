@@ -79,6 +79,7 @@ $ kill -9 10540
 
 - NSA Research Directorate [https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 - [blacktop/docker-ghidra](https://github.com/blacktop/docker-ghidra)
+- [mandiant/Ghidrathon](https://github.com/mandiant/Ghidrathon)
 
 ### License
 
